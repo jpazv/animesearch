@@ -15,6 +15,9 @@ export function AnimeCard({anime}) {
                 <Text style={{ fontSize: 12, opacity: .7, color: "blue", maxWidth: 200 }}>
                     {anime.attributes.averageRating}
                 </Text>
+                <Text style = {{paddingTop: 60, marginHorizontal: 30, color:'#464646'}}>
+                    Clique para ver a sinopse!
+                </Text>
             </View>
         </View>
     )

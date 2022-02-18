@@ -39,7 +39,7 @@ export default function Home({ navigation: { navigate } }) {
                     <SearchInput value={text} onChange={(str) => setText(str)} />
                     {info.data && (
                         <View>
-                            <Image style={StyleSheet.absoluteFillObject} source={{ uri: "https://1.bp.blogspot.com/-YZxv1NclCoc/YX6c68gTfSI/AAAAAAAAi0o/WGrPfFTj_Nor2DAQJUbquzvPhCeanHTJwCNcBGAsYHQ/s1334/melhores-wallpapers-de-naruto-4k%2B%25281%2529.jpg" }} blurRadius={40} />
+                            <Image style={StyleSheet.absoluteFillObject} source={{ uri: "https://1.bp.blogspot.com/-YZxv1NclCoc/YX6c68gTfSI/AAAAAAAAi0o/WGrPfFTj_Nor2DAQJUbquzvPhCeanHTJwCNcBGAsYHQ/s1334/melhores-wallpapers-de-naruto-4k%2B%25281%2529.jpg" }} blurRadius={5} />
                             {info.data.map((anime) => {
                                 return (
                                     <View style={{
