@@ -12,9 +12,24 @@ const SearchInput = ({ value, onChange }) => {
     }
 
     return (
+        <>
         <TextInput
+            placeholder='Busque pelo seu anime favorito'
             value={displayValue}
-            onChange={handleChange} />
+            onChange={handleChange}
+            style={{
+                padding: 10, backgroundColor: 'rgba(255,255,255, 0.7)', borderRadius: 10,
+                shadowColor: "#000",
+                shadowOffset: {
+                    width: 0,
+                    height: 10
+                },
+                shadowOpacity: .3,
+                shadowRadius: 20,
+                margin: 20
+            }}
+        />
+        </>
     );
 }
 
